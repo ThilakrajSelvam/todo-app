@@ -16,10 +16,10 @@ import "./TodoList.css";
 const TodoList = ({ todos, handleDelete, handleComplete }) => {
   return (
     <div className="list_container">
-      <h2 style={{ alignSelf: "center" }}>
+      <h2 style={{ alignSelf: "center", position: "sticky", zIndex: 100 }}>
         Todos {todos.length > 0 && todos.length}
       </h2>
-      <List>
+      <List className="todo_list">
         {todos &&
           todos.map((todo) => {
             return (

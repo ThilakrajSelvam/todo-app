@@ -6,6 +6,14 @@
   padding: 20px;
 }
 
+.todo_list {
+  overflow-y: scroll;
+}
+
+.todo_list::-webkit-scrollbar {
+  display: none;
+}
+
 .todo_item {
   margin: 10px 0px;
   background-color: #ffffff;
