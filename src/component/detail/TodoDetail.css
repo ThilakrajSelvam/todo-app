@@ -1,0 +1,19 @@
+.form_container {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 10px;
+}
+
+.input_container {
+  margin: 20px 10px;
+  width: 60%;
+}
+
+.submit_button {
+  margin: 30px 10px !important;
+  width: 60%;
+}
